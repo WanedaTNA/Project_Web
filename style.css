@@ -1,0 +1,108 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.fContainer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+.wrapper {
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    padding: 15px;
+    width: 100%;
+    height: 80px;
+}
+
+.background{
+    display: flex;
+}
+
+.row1 {
+    display: flex;
+
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+    padding: 15px;
+    text-transform: capitalize;
+}
+
+.firstname {
+    color: rgba(0, 55, 250, 1);
+    font-weight: 900;
+}
+
+.lastname {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    padding-left: 3px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation>li {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.navigation>li>a {
+    color : rgba(28, 28, 28);
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.navigation>li>a:hover {
+    color: rgba(0, 55, 250, 1);
+    transition: .3s ease-in-out;
+}
+
+.navigation>li>img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.navigation>li>img:hover {
+    width: 65px;
+    height: 65px;
+    border-radius: 65px;
+    transition: .3s ease-in-out;
+}
+
+.active {
+    background-color: rgba(0, 55, 250, 1);
+    padding: 15px;
+}
+
+.active:hover {
+    color: white !important;
+}
+
+.content {
+    float: right;
+    margin-left: 1000px;
+}
+
+.row1 {
+    float: right;
+}
+
+.row2 {
+    float: left;
+    display: flex;
+    
+}
